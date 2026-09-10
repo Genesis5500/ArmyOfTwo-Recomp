@@ -74,6 +74,11 @@ Then run `play.bat`, or `armyof2.exe --game_data_root <your-game-folder> --gpu_p
 Set your game path in `armyof2_manifest.toml` (`game_root` / `entrypoint.file_path`) before
 the first build.
 
+**Linux and macOS** compile natively too (via the Vulkan backend / MoltenVK) — see
+[docs/BUILDING.md](docs/BUILDING.md) for per-platform build and packaging steps. These are
+**experimental**: only Windows/Direct3D 12 has been validated so far. The prebuilt release
+is currently Windows-only; build from source on other platforms.
+
 ## Credits
 
 With research and tools from the Xbox 360 recompilation community:
