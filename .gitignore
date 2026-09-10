@@ -1,0 +1,38 @@
+# --- Recompiled game code: NEVER commit ------------------------------------
+# generated/ is the PowerPC->C++ output of YOUR OWN dumped default.xex. It is a
+# derivative of copyrighted game code and must be produced locally by each user
+# from their own legally-obtained copy. Do not distribute it.
+/generated/
+
+# --- Build output ----------------------------------------------------------
+/out/
+/build/
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.dll
+
+# --- Game data (users supply their own legally-dumped copy) ----------------
+/artifacts/
+/game/
+*.xex
+*.iso
+*.god
+*.upk
+*.xxx
+
+# --- Local dev / diagnostics (depend on a locally-patched SDK) --------------
+baseline_capture.bat
+profile_draw_phases.bat
+docs/PLUME_PLUGIN_PLAN.md
+*.csv
+*.log
+
+# --- Editor / OS -----------------------------------------------------------
+.vs/
+.vscode/
+.idea/
+*.user
+Thumbs.db
+.DS_Store
