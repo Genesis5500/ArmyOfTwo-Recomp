@@ -4,8 +4,8 @@ An experimental native PC port of **Army of Two** for Xbox 360.
 
 **Windows x64 · Direct3D 12 · PowerPC static recompilation (ReXGlue)**
 
-[Download](https://github.com/Genesis5500/ArmyOfTwo-Recomp-rexglue/releases/latest) ·
-[Report an issue](https://github.com/Genesis5500/ArmyOfTwo-Recomp-rexglue/issues) ·
+[Download](https://github.com/Genesis5500/ArmyOfTwo-Recomp/releases/latest) ·
+[Report an issue](https://github.com/Genesis5500/ArmyOfTwo-Recomp/issues) ·
 [Changelog](CHANGELOG.md) · [Build from source](#build-from-source)
 
 > **Important**
