@@ -55,9 +55,15 @@ Building requires the **ReXGlue SDK 0.10.0**, **CMake ≥ 3.25**, **Ninja**, and
 The recompiler turns *your own* `default.xex` into C++ locally; the generated code is
 git-ignored and is never distributed.
 
+Use the **[Army of Two ReXGlue SDK fork](https://github.com/Genesis5500/ArmyOfTwo-Recomp-rexglue)** —
+ReXGlue SDK v0.10.0 plus the changes this game needs (non-RTTI data-pointer function
+discovery, discrete-GPU selection, and a per-draw profiler). Its
+[`ARMYOF2_FORK.md`](https://github.com/Genesis5500/ArmyOfTwo-Recomp-rexglue/blob/main/ARMYOF2_FORK.md)
+documents exactly what changed and why.
+
 ```bash
-# Point the build at your ReXGlue SDK checkout (or install it so find_package sees it)
-cmake --preset win-amd64-release -DREXSDK_DIR=<path-to-rexglue-sdk>
+# Point the build at the Army of Two SDK fork checkout (contains the required changes)
+cmake --preset win-amd64-release -DREXSDK_DIR=<path-to-ArmyOfTwo-Recomp-rexglue>
 
 # Build (also runs codegen: recompiles your default.xex per armyof2_manifest.toml)
 cmake --build out/build/win-amd64-release
