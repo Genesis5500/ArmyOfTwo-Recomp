@@ -1,4 +1,4 @@
-# Army of Two Recompilation (ReXGlue)
+# Army of Two Recompilation
 
 An experimental native PC port of the Xbox 360 game **Army of Two**, built with static
 recompilation via the [ReXGlue SDK](https://github.com/) (PowerPC → portable C++, rendered
